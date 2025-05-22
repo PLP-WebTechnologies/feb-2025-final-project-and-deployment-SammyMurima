@@ -1,25 +1,21 @@
-# Final Project and Deployment
+# Dream Homes Realty - Final Web Project
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+## Description
+This is a multi-page responsive website for a fictional real estate agency. The site includes pages for Home, About, and Contact.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Technologies Used
+- HTML5
+- CSS3 (Responsive Design)
+- JavaScript (Form Validation)
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+## Deployment
+[Live Site](https://your-sammymurima.github.io/real-estate-project/)
 
-## Tasks
+## Screenshots
+(Add screenshots of your site after deployment)
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+## Features
+- Featured property listings
+- Team introduction
+- Contact form with validation
 
-Good luck and happy coding! 🚀💻
