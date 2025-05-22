@@ -3,29 +3,109 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us - Dream Homes Realty</title>
+  <title>Contact Us | Beachfront Mansions</title>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHq+M2sEO0XrU28T1b7u2NnLx2rE6dz2tKiZq+3GqZ0e4tAx2zqY2W70UJfE0tDnFjkLUd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf0;
+      color: #333;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #f7c948;
+      color: #1e3a8a;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: #1e3a8a;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea, button {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #1e3a8a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #152c5b;
+    }
+    .social {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .social a {
+      color: #1e3a8a;
+      margin: 0 1rem;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+    .social a:hover {
+      color: #0f1e42;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>About Us</h1>
+    <h1>Contact Us</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
-
   <main>
-    <section>
-      <h2>Who We Are</h2>
-      <img src="images/team.jpg" alt="Our Team" />
-      <p>We are a passionate team helping families find their dream homes. With over 10 years of experience, we connect buyers with top real estate listings in Kenya.</p>
-    </section>
-  </main>
+    <h2>Get in Touch</h2>
+    <p>Have questions or ready to book a tour? Fill out the form below and our team will get back to you shortly.</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
 
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social">
+      <p>Or reach us directly on:</p>
+      <a href="https://facebook.com/sammyMurima" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/sammyMurima" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@sammyMurima" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="mailto:sammyMurima@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </main>
   <footer>
-    <p>&copy; 2025 Dream Homes Realty</p>
+    &copy; 2025 Beachfront Mansions. All rights reserved.
   </footer>
 </body>
 </html>
